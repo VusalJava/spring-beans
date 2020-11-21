@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 import static org.springframework.beans.factory.config.ConfigurableBeanFactory.SCOPE_PROTOTYPE;
 
+@Component
 public class Cat implements Animal {
     @Override
     public String toString() {
